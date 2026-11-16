@@ -1,20 +1,3 @@
-"""
-Student Performance and Study-Hours Dashboard
-=============================================
-Main application providing statistical analysis, Matplotlib charts, and a
-Tkinter desktop graphical dashboard.
-
-Features:
-- Encapsulated record validation and grade mapping via StudentRecord.
-- NumPy array-based central tendency, dispersion, percentiles, and IQR outlier detection.
-- Pandas course-wise aggregation and correlation analysis.
-- Matplotlib embedded visualisations (scatter plot with dual linear fits, score histogram,
-  grade distribution bar chart, course comparisons).
-- Interactive Tkinter desktop GUI with metric cards, course filtering, customizable
-  IQR threshold, outlier toggle, record table viewer, and export functionality.
-- Seamless execution in terminal, Python IDLE (F5), or script runners.
-"""
-
 import os
 import sys
 import argparse
