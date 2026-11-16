@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Matplotlib configuration cache
+.mplconfig/
+
+# Environments
+env/
+venv/
+.venv/
+.env
+
+# Editor & OS artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
