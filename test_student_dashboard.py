@@ -1,19 +1,3 @@
-"""
-Test Suite for Student Performance and Study-Hours Dashboard
-============================================================
-Unit and integration tests implementing the validation matrix from Section 7 of
-the project specification.
-
-Test Cases Covered:
-1. Sample startup: Validates reproducible synthetic dataset loading (123 valid, 2 rejected).
-2. Invalid score rejection: Checks rejection of scores < 0 or > 100 (e.g. 140.0).
-3. Blank/non-numeric study hours rejection: Rejects empty or invalid study_hours.
-4. Default IQR (k=1.5) outlier detection: Confirms exactly 4 extreme observations flagged.
-5. Course selector filter: Verifies filtering and recalculation for Biology, Business, Computing, Maths.
-6. CSV import handling: Checks DictReader behavior with missing/extra columns and corrupted rows.
-7. Hide outliers filter: Tests subsetting of records excluding flagged outliers.
-8. Export filtered CSV: Verifies CSV file generation and schema integrity.
-"""
 
 import os
 import sys
