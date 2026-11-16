@@ -1,6 +1,10 @@
 # Student Performance and Study-Hours Dashboard
 
-> **Python Programming Laboratory Project**  
+> **Python Programming Laboratory Project**
+> **Members:
+> **167. ANOUSHKA GHOSH 12025052003179.**
+> **170. ABESH GHOSH 12025052003182.**
+> **178. SOUMIK MONDAL 12025052003192.**
 > **Course:** Bachelor of Technology (B.Tech) — Electronics and Communication Engineering  
 > **Institute:** Institute of Engineering & Management, Kolkata  
 > **Academic Session:** 2026–2027  
@@ -52,20 +56,6 @@ student_performance_dashboard/
 
 ---
 
-## ⚙️ Installation & Requirements
-
-### 1. Prerequisites
-- Python 3.10, 3.11, or 3.14
-- Standard desktop graphical support (Tkinter is included with standard Windows Python installers).
-
-### 2. Install Required Third-Party Packages
-Open PowerShell, Command Prompt, or Windows Terminal:
-```bash
-py -m pip install numpy pandas matplotlib scipy python-docx
-```
-*(Or use `python -m pip install numpy pandas matplotlib scipy python-docx`)*
-
----
 
 ## 📊 Dataset Schema & Verification Summary
 
